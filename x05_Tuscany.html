@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>A Taste of Tuscany</title>
+        <link type="text/css" rel="stylesheet" href="x05_Tuscany.css" />
+        <script type="text/javascript">
+
+            function toggle() {
+                let Specials = document.getElementById('Specials');
+                if (Specials.style.display == "none") {
+                        Specials.style.display = "block";
+                    } else {
+                        Specials.style.display = "none";
+                    }
+                }
+
+            // document.addEventListener('DOMContentLoaded', 'click',function() {
+            //     const toggleText =document.getElementById('toggleText');
+            //     const Specials =document.getElementById('Specials');
+
+            //     toggleText.addEventListener('click', );
+            // });
+        </script>
+    </head>
+    <body>
+        <article id="Tuscany" style="display:block;">
+            <p>
+                <b>A Taste of Tuscany</b>
+            </p>
+            <p>
+                Italian Restaurant
+            </p>
+            <p>
+                234 Arezzo Avenue
+            </p>
+            <p>
+                Sherwood Park
+            </p>
+            <p>
+                <img src="img/spaghetti!!!!!!!!!!!!!!!!!!.png" height="100" width="200">
+            </p>
+            <p>
+                <a href="https://secretvancouver.co/the-best-italian-restaurants-on-commercial-drive/">Image Link</a>
+            </p>
+            <p>
+                <ul>
+                    <li>Fine Italian Dining</li>
+                    <li id="toggleText" style="cursor: pointer;"><a href="javascript:toggle()">Specials</a></li>
+                    <li>Licensed</li>
+                    <li>Banquet Room</li>
+                    <li>Open Daily until 11pm</li>
+                    <li>Eat in, Take out, Delivery</li>
+                    <li>Call 780-5555-1234</li>
+                </ul>
+            </p>
+        </article>
+        <article>
+            <div id="Specials" style="display:none;">
+                <p>
+                    <b><i>Today's Special</i></b>
+                </p>
+                <p>
+                    <i>Valigette</i> (Beef Rolls)
+                </p>
+                <p>
+                    $12.95
+                </p>
+                <p>
+                    <img src="img/bef.jpg" height="200" width="400px">
+                </p>
+                <p>
+                    <a href="https://www.taste.com.au/recipes/italian-style-beef-rolls-tomato-basil-sauce/b3c4cf20-8955-4a65-8690-92d50dd00496">Image Link</a>
+                </p>
+                <p>
+                    Includes any <i>two</i> of:
+                </p>
+                <p>
+                    <ol>
+                        <li><i>Pasta e Fagioli</i></li>
+                        <li><i>Ravoili Nudi</i></li>
+                        <li><i>Fettunta</i></li>
+                        <li><i>Crostini Con Salsiccia</i></li>
+                        <li><i>Ribollita</i></li>
+                    </ol>
+                </p>
+                <p><a href="javascript:toggle()">Close</a></p>
+            </div>
+        </article>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    border: blue;
+    text-align: center;
+}
+
+
+ol {
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    border: 1px solid blue;
+    text-align: left;
+}
+
+ol:nth-child(li) {
+    text-align: center;
+}
+
+ul {
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    border: 1px solid blue;
+    text-align: left;
+}
+
+ul:nth-child(li) {
+    text-align: center;
+}
+div {
+    display: block;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    border: 2px solid red;
+    background-color: aqua;
+}
